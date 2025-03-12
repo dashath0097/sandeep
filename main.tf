@@ -12,7 +12,7 @@ provider "spacelift" {}
 # Define the role ARN (replace with the role you created in Step 1)
 locals {
   role_name = "spacelift-role"
-  role_arn  = "arn:aws:iam::YOUR_AWS_ACCOUNT_ID:role/spacelift-role"
+  role_arn  = "arn:aws:iam::992382549591:role/demo3.0"
   stacks_to_attach = ["stack-1", "stack-2", "stack-3"]  # Update with your stack names
 }
 
